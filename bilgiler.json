@@ -1,0 +1,220 @@
+{
+  "plants": {
+    "domates": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Yüksek",
+      "sicaklik": { "min": 15, "max": 30 },
+      "ruzgar": "Orta (korunmalı)",
+      "gunes_suresi_saat": 8,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Fide veya tohum"
+    },
+    "salatalik": {
+      "su_ihtiyaci": "Yüksek",
+      "gubre_ihtiyaci": "Orta",
+      "sicaklik": { "min": 18, "max": 32 },
+      "ruzgar": "Hassas",
+      "gunes_suresi_saat": 7,
+      "ekim_zamani": ["Nisan", "Mayıs"],
+      "ekim_sekli": "Tohum"
+    },
+    "biber": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Orta",
+      "sicaklik": { "min": 18, "max": 30 },
+      "ruzgar": "Düşük",
+      "gunes_suresi_saat": 8,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Fide veya biber tohumu"
+    },
+    "patlican": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Orta",
+      "sicaklik": { "min": 20, "max": 32 },
+      "ruzgar": "Hassas",
+      "gunes_suresi_saat": 8,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Fide"
+    },
+    "kabak": {
+      "su_ihtiyaci": "Yüksek",
+      "gubre_ihtiyaci": "Orta",
+      "sicaklik": { "min": 18, "max": 30 },
+      "ruzgar": "Orta",
+      "gunes_suresi_saat": 7,
+      "ekim_zamani": ["Nisan", "Mayıs"],
+      "ekim_sekli": "Tohum"
+    },
+    "marul": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 22 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 5,
+      "ekim_zamani": ["Şubat", "Mart", "Eylül"],
+      "ekim_sekli": "Tohum"
+    },
+    "ispanak": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 8, "max": 20 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 5,
+      "ekim_zamani": ["Şubat", "Mart", "Ekim"],
+      "ekim_sekli": "Tohum"
+    },
+    "havuç": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 25 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 6,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Tohum"
+    },
+    "patates": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Orta",
+      "sicaklik": { "min": 10, "max": 25 },
+      "ruzgar": "Orta",
+      "gunes_suresi_saat": 6,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Yumru"
+    },
+    "sogan": {
+      "su_ihtiyaci": "Düşük",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 25 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 6,
+      "ekim_zamani": ["Şubat", "Mart"],
+      "ekim_sekli": "Soğan seti veya tohum"
+    },
+    "sarimsak": {
+      "su_ihtiyaci": "Düşük",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 5, "max": 20 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 6,
+      "ekim_zamani": ["Ekim", "Kasım"],
+      "ekim_sekli": "Diş ekimi"
+    },
+    "fasulye": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 15, "max": 30 },
+      "ruzgar": "Orta",
+      "gunes_suresi_saat": 7,
+      "ekim_zamani": ["Nisan", "Mayıs"],
+      "ekim_sekli": "Tohum"
+    },
+    "bezelye": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 20 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 6,
+      "ekim_zamani": ["Şubat", "Mart"],
+      "ekim_sekli": "Tohum"
+    },
+    "misir": {
+      "su_ihtiyaci": "Yüksek",
+      "gubre_ihtiyaci": "Yüksek",
+      "sicaklik": { "min": 18, "max": 32 },
+      "ruzgar": "Orta",
+      "gunes_suresi_saat": 8,
+      "ekim_zamani": ["Nisan", "Mayıs"],
+      "ekim_sekli": "Tohum"
+    },
+    "cilek": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Orta",
+      "sicaklik": { "min": 10, "max": 25 },
+      "ruzgar": "Hassas",
+      "gunes_suresi_saat": 7,
+      "ekim_zamani": ["Mart", "Eylül"],
+      "ekim_sekli": "Fide"
+    },
+    "maydanoz": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 25 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 5,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Tohum"
+    },
+    "dereotu": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 25 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 5,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Tohum"
+    },
+    "nane": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 28 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 4,
+      "ekim_zamani": ["Mart", "Nisan", "Mayıs"],
+      "ekim_sekli": "Kök veya çelik"
+    },
+    "feslegen": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 18, "max": 30 },
+      "ruzgar": "Hassas",
+      "gunes_suresi_saat": 6,
+      "ekim_zamani": ["Nisan", "Mayıs"],
+      "ekim_sekli": "Tohum"
+    },
+    "roka": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 22 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 5,
+      "ekim_zamani": ["Mart", "Nisan", "Eylül"],
+      "ekim_sekli": "Tohum"
+    },
+    "kekik": {
+      "su_ihtiyaci": "Düşük",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 30 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 6,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Tohum veya fide"
+    },
+    "lavanta": {
+      "su_ihtiyaci": "Düşük",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 30 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 8,
+      "ekim_zamani": ["Mart", "Nisan"],
+      "ekim_sekli": "Fide"
+    },
+    "ebegumeci": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Düşük",
+      "sicaklik": { "min": 10, "max": 28 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 5,
+      "ekim_zamani": ["Mart", "Nisan", "Mayıs"],
+      "ekim_sekli": "Tohum"
+    },
+    "pirasa": {
+      "su_ihtiyaci": "Orta",
+      "gubre_ihtiyaci": "Orta",
+      "sicaklik": { "min": 10, "max": 25 },
+      "ruzgar": "Dayanıklı",
+      "gunes_suresi_saat": 6,
+      "ekim_zamani": ["Şubat", "Mart", "Eylül"],
+      "ekim_sekli": "Tohum veya fide"
+    }
+  }
+}
