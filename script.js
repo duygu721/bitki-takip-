@@ -60,7 +60,7 @@ function tarihiYazdir(tarih) {
 }
 
 async function havaDurumuGetir(city) {
-  const apiKey = "b02ee3ce24da8e5a027dd0145ecd4df4";
+  const apiKey = "apikey";
 
   const response = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
